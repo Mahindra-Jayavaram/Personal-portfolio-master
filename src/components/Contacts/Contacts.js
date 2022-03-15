@@ -26,6 +26,7 @@ import { ThemeContext } from "../../contexts/ThemeContext";
 
 import { socialsData } from "../../data/socialsData";
 import { contactsData } from "../../data/contactsData";
+import emailjs from "emailjs-com";
 import "./Contacts.css";
 
 function Contacts() {
@@ -136,9 +137,9 @@ function Contacts() {
     if (name && email && message) {
       if (isEmail(email)) {
         const responseData = {
-          service_id: "service_kegompr",
-          template_id: "template_z9rt54q",
-          user_id: "user_CmuVg3tmSM47bfgLn",
+          service_id: "service_szv6yt4",
+          template_id: "template_destzpf",
+          user_id: "CmuVg3tmSM47bfgLn",
           template_params: {
             from_name: name,
             from_email: email,

@@ -40,9 +40,9 @@ export const projectsData = [
     ],
     tags: ["MongoDB", "Node JS", "Express"],
     code: "https://github.com/Mahindra-Jayavaram/HM-Clone-Backend",
-    demo: "https://aqueous-fortress-78543.herokuapp.com/",
-    image: hm2
-      // "https://user-images.githubusercontent.com/91539305/147107410-e2cf1961-f777-4e33-8a49-586a9a612cb5.gif",
+    demo: "",
+    image: 
+      "https://raw.githubusercontent.com/Mahindra-Jayavaram/Personal-portfolio-master/main/demoVedio.gif?sanitize=true&raw=true",
   },
   {
     id: 3,
